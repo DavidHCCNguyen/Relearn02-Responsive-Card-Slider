@@ -32,9 +32,6 @@ Here, you'll find a detailed list of the distinctive features incorporated into 
 ### [Youtube](https://www.youtube.com/)
 Valuable tutorials and insights from the YouTube community played a pivotal role in refining my skills. Learn more about the impactful videos that influenced this project.
 
-### [Boxicons](https://boxicons.com/?query=share)
-Utilized a variety of icons from Boxicons to enhance the visual appeal and user interaction of the profile card. Explore how these icons contribute to the overall design.
-
 ### [Google Fonts](https://fonts.google.com/)
 Incorporated diverse fonts from Google Fonts to add a typographic dimension, ensuring a harmonious and engaging design. Discover the thought process behind font selection and its impact on the user experience.
 
