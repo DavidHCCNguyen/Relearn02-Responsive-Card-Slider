@@ -1,0 +1,158 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Resetting default styles and setting the font for the entire document */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Styling the body */
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+}
+
+/* Styling the main container for the slider */
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    background-color: grey;
+    padding: 40px 0;
+}
+
+/* Styling the content within the slider */
+.slide-content {
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+/* Styling individual cards */
+.card {
+    width: 320px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+/* Styling image and content within each card */
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+/* Styling the image container with an overlay */
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    border-radius: 25px 25px 0 0;
+}
+
+.overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+}
+
+/* Styling the circular card image */
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 3px;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid green;
+}
+
+/* Styling card details */
+.name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.description {
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+
+/* Styling the button */
+.button {
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: green;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for the button */
+.button:hover {
+    background-color: darkgreen;
+}
+
+/* Styling navigation buttons for Swiper */
+.swiper-navBtn {
+    color: greenyellow;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for navigation buttons */
+.swiper-navBtn:hover {
+    color: chartreuse;
+}
+
+/* Styling pagination bullets */
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+    font-size: 40px;
+}
+
+/* Styling next and previous buttons for Swiper */
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+/* Styling pagination bullets for Swiper */
+.swiper-pagination-bullet {
+    background-color: greenyellow;
+    opacity: 1;
+}
+
+/* Styling active pagination bullet for Swiper */
+.swiper-pagination-bullet-active {
+    background-color: chartreuse;
+}
